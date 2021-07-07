@@ -1,0 +1,9 @@
+a,b=map(int,input().split())
+c=0
+s=b
+while(b):
+    b=b//10
+    c+=1
+i=a*10**c+s
+print(i)
+print(i*i)
